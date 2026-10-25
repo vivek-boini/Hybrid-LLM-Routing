@@ -1,0 +1,18 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Large raw datasets (downloaded on demand from Hugging Face)
+data/raw/
+*.jsonl
+
+# Environment & editor
+.env
+.venv/
+venv/
+ENV/
+.idea/
+.vscode/
+*.swp

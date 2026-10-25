@@ -1,0 +1,11 @@
+# Evaluation configuration for real data heuristics sweep
+data: "data/mix.npz"
+split: "test"
+seeds: 10
+sweep: "lam=2,3,5,7,10"
+policies: "rr,sqf,br,greedy"
+n_experts: 6
+latency_ms: 30.0
+n_req: 300
+admission_bound: "prompt_only"
+out: "results/real_heuristics.csv"

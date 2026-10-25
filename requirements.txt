@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+torch
+huggingface_hub
+pytest
+# optional
+# tiktoken                 # exact BPE token counting: --tokenizer tiktoken
+# sentence-transformers    # --embed minilm
+# vllm                     # DGX only, for qos/calibrate_vllm.py
